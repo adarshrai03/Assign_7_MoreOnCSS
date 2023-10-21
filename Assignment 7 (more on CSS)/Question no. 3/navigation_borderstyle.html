@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .container{
+            background-color: skyblue;
+            height: 100vh;
+            width: 100vw;
+        }
+        .nav{
+            height: 80px;
+            width: 100vw;
+            background-color: skyblue;
+            display: flex;
+            align-items: center;
+            font-size: 1.1em;
+            border: .8px solid black;
+            background-image: linear-gradient(140deg , rgb(156, 230, 250) , rgb(0, 28, 69));
+            
+            box-shadow: 1.5px 1.5px 3px black;
+            border-radius: 20px;
+        }
+        .opt{
+
+            width: 45vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        a{  display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1.5px solid black; 
+            padding: 6px;
+        }
+       
+        a:hover{
+            color: rgb(26, 26, 26);
+            cursor: pointer;
+        }
+        .home{
+            border: 1.5px solid black;
+            box-shadow: 1.5px 1.5px 2px red;
+        }
+        .about{
+            border: 1.5px solid yellow;
+            border-radius: 5px;
+            box-shadow: 1.5px 1.5px 2px rgb(162, 255, 0);
+
+        }
+        .contact{
+            border: 1.5px solid rgb(0, 255, 229);
+            border-radius: 10px;
+            box-shadow: 1.5px 1.5px 2px rgb(255, 0, 191);
+        }
+        .blog{
+            border: 1.5px solid rgb(0, 255, 38);
+            border-radius: 15px;
+            box-shadow: 1.5px 1.5px 2px rgb(255, 0, 200);
+        }
+        .login{
+            border: 1.5px solid rgb(60, 0, 255);
+            border-radius: 20px;
+            box-shadow: 1.5px 1.5px 2px rgb(255, 136, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="opt">
+            <a class="home" href="#">Home</a>
+            <a class="about" href="#">About Us</a>
+            <a class="contact" href="#">Contact Us</a>
+            <a class="blog" href="#">Blog</a>
+            <a class="login" href="#">Login</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
